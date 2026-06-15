@@ -15,19 +15,31 @@ Genre classification
 
 Audio features such as:
   Danceability
+  
   Energy
+  
   Speechiness
+  
   Acousticness
+  
   Instrumentalness
+  
   Liveness
+  
   Valence
+  
   Tempo
+  
   Duration
+
+
 
 
 Data Preparation
 
+
 Missing Values
+
 
 Checked for missing values.
 
@@ -35,9 +47,11 @@ Removed rows containing null values.
 
 Duplicate Tracks
 
+
 Many tracks appeared multiple times because a single song could belong to multiple genres.
 
 To support different analytical goals, two datasets were created:
+
 
 Song-Level Dataset (df_song)
 
@@ -46,12 +60,16 @@ Song-Level Dataset (df_song)
   Duplicates removed using track_id.
   
   Used for popularity, artist, audio feature, and machine learning analyses.
+
+
   
 Genre-Level Dataset (df_genre)
 
 Original dataset retained.
 
 Used for genre-specific analyses.
+
+
 
 Exploratory Data Analysis
 
@@ -62,6 +80,8 @@ What are the top 10 most popular songs?
 What are the top 10 most popular artists?
 
 Which artists are consistently popular rather than relying on a single viral hit?
+
+
 
 
 Genre Analysis
@@ -75,6 +95,7 @@ Which genres are the least popular?
 Which genres have the highest danceability?
 
 Which genres have the highest energy?
+
 
 
 
@@ -94,6 +115,7 @@ Are collaborations more likely to become hit songs?
 
 
 
+
 Duration Analysis
 
 Average song length
@@ -103,6 +125,7 @@ Genres with the longest songs
 Genres with the shortest songs
 
 
+
 Song Analysis
 
 What are the characteristics of top 10% songs?
@@ -110,13 +133,14 @@ What are the characteristics of top 10% songs?
 What emotional profile listeners prefer
 
 
-Machine Learning
 
+Machine Learning
 
 Predicting Song Popularity
 
 
 A supervised machine learning approach was used to estimate song popularity from audio features.
+
 
 
 
