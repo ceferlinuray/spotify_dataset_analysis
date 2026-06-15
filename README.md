@@ -1,9 +1,9 @@
 # spotify_dataset_analysis
 This project analyzes a Spotify tracks dataset to uncover patterns in song popularity, genre characteristics, artist performance, and audio features.
+
 The analysis combines exploratory data analysis (EDA), business-oriented insights, and machine learning techniques to understand what makes songs successful on Spotify.
 
 Dataset
-
 The dataset contains Spotify tracks along with:
 
 Track information (name, artist, album)
